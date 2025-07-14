@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture</title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- gogle fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script:wght@400..700&family=Fjalla+One&family=Libertinus+Mono&family=Oswald:wght@200..700&family=Patua+One&family=Tektur:wght@400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            font-family: "Libertinus Mono", monospace;
+            padding: 0;
+            margin: 0;
+        }
+
+        h1 {
+            font-family: "Winky Sans", sans-serif;
+        }
+
+        h4 {
+            font-family: "Dancing Script", cursive;
+        }
+
+        h6 {
+            font-family: "Pacifico", cursive;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="bg-primary ">
+            <p class="text-light text-center py-2">Extra 2500 off on Sofas Above Rs. 14999</p>
+        </div>
+
+        <div class="bg-ligt d-flex justify-content-around py-3">
+            <a href="" class="text-decoration-none text-dark">Sell on Oakwood</a>
+            <a href="" class="text-decoration-none text-dark">Become a franchisee</a>
+            <a href="" class="text-decoration-none text-dark">Buy in Bulk</a>
+            <a href="" class="text-decoration-none text-dark">GIFT CARDS</a>
+            <a href="" class="text-decoration-none text-dark">Track Your Order</a>
+            <a href="" class="text-decoration-none text-dark">Contact us</a>
+        </div>
+
+
+        <!-- header -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <i class="fa-solid fa-couch fx-3"></i>
+                <a class="navbar-brand ms-2" href="#">OAKWOOD</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">New Products</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Best Seller
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Chair</a></li>
+                                <li><a class="dropdown-item" href="#">Table</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Sofa</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    </form>
+                    <i class="fa-solid fa-cart-shopping fa-bounce fs-3 px-2 text-primary" style="color: #3c64aa;"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- carousel -->
+    <section>
+        <div class="container ">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://c4.wallpaperflare.com/wallpaper/452/939/736/sofa-furniture-chair-cushion-wallpaper-preview.jpg"
+                            class="d-block w-100 my-4" height="600px" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://t4.ftcdn.net/jpg/04/66/25/33/360_F_466253361_c4fAjCqVZD4L2boH8vfqjUbUYk0wLcP7.jpg"
+                            class="d-block w-100 my-4" height="600px" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://t4.ftcdn.net/jpg/08/18/59/35/360_F_818593599_m4p1Aw5Q3uPBEcXNKdTjoksFmQtZIGcu.jpg"
+                            class="d-block w-100 my-4" height="600px" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- top picks -->
+    <section>
+        <h1 class="text-center my-5">Top Picks For You</h1>
+        <br>
+        <div class="row px-6 mx-1">
+            <div class="col-3 text-center">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/024/369/010/small_2x/soft-blue-sofa-on-a-blue-background-3d-illustration-modern-minimalistic-living-room-interior-detail-cosiness-social-media-and-sale-concept-creative-advertisement-idea-ai-generated-image-free-photo.jpg"
+                    width="200px" height="200px" class="rounded-circle shadow-lg" alt="">
+                <h6 class="p-3 fs-4 ">Sofa</h6>
+            </div>
+            <div class="col-3 text-center">
+                <img src="https://png.pngtree.com/thumb_back/fh260/background/20230630/pngtree-contemporary-armchair-with-wooden-legs-in-isolation-3d-render-image_3692436.jpg"
+                    width="200px" height="200px" class="rounded-circle shadow-lg" alt="">
+                <h6 class="p-3 fs-4">Armchair</h6>
+            </div>
+            <div class="col-3 text-center">
+                <img src="https://media.woodsmithplans.com/images/WS11206_craftsman-coffee-table/photo-large-hd.jpg"
+                    width="200px" height="200px" class="rounded-circle shadow-lg" alt="">
+                <h6 class="p-3 fs-4">Coffee Table</h6>
+            </div>
+            <div class="col-3 text-center">
+                <img src="https://cdn.pixabay.com/photo/2020/04/18/08/06/furniture-5058151_1280.jpg" width="200px"
+                    height="200px" class="rounded-circle shadow-lg" alt="">
+                <h6 class="p-3 fs-4">Dining Table</h6>
+            </div>
+
+        </div>
+
+        <div class="row px-6 mt-5 mx-1">
+            <div class="col-3 text-center">
+                <img src="https://png.pngtree.com/thumb_back/fh260/background/20241112/pngtree-modern-bookshelf-background-image_16542835.jpg"
+                    width="200px" height="200px" class="rounded-circle shadow-lg" alt="">
+                <h6 class="p-3 fs-4">Bookshelf</h6>
+            </div>
+            <div class="col-3 text-center">
+                <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmVkcm9vbXxlbnwwfHwwfHx8MA%3D%3D"
+                    width="200px" height="200px" class="rounded-circle shadow-lg" alt="">
+                <h6 class="p-3 fs-4">Bed</h6>
+            </div>
+            <div class="col-3 text-center">
+                <img src="https://images.pexels.com/photos/1957478/pexels-photo-1957478.jpeg" width="200px"
+                    height="200px" class="rounded-circle shadow-lg" alt="">
+                <h6 class="p-3 fs-4">Desk</h6>
+            </div>
+            <div class="col-3 text-center">
+                <img src="https://www.itl.cat/pngfile/big/105-1059503_living-room-tv-unit-interior-design-tv-stand.jpg"
+                    width="200px" height="200px" class="rounded-circle shadow-lg" alt="">
+                <h6 class="p-3 fs-4">TV Units</h6>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- bulk option -->
+    <section>
+        <h1 class="text-center mt-5 ">India's Finest Online Furniture Brand</h1>
+        <p class="text-center mt-1 fst-italic ">Buy Furniture Online from our Extensive Collection of Wooden Furniture
+            Units</p>
+        <div class="container ">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="https://m.media-amazon.com/images/G/31/IMG20/Furniture/Solidwood/Header/Solidwood_1242x450.jpg"
+                            class="d-block w-100" height="450px" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="https://www.khaticraft.com/cdn/shop/files/Living_Room_Banner.jpg?v=1722071782&width=1600"
+                            class="d-block w-100" height="450px" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://blog.woodenstreet.com/images/data/image_upload/1556021777Banner.jpg"
+                            class="d-block w-100" height="450px" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- review -->
+
+    <h1 class="text-center my-5">Our Valuable Coustomers</h1>
+    <p class="text-center mt-1 fst-italic ">Their words,Our pride</p>
+    <section>
+        <div class="container">
+
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="card mb-3" style="max-width: 540px; height: 250px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="https://w0.peakpx.com/wallpaper/1019/891/HD-wallpaper-cristiano-ronaldo-in-blue-blazer-cristiano-ronaldo-blue-blazer-smile-sports-footballer.jpg"
+                                                class="img-fluid rounded-start " alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Cristiano Ronaldo</h5>
+                                                <p class="card-text">Cristiano Ronaldo is Woody Sofas customer who transformed their living space into a haven of
+              comfort and luxury.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 10
+                                                        mins ago</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card mb-3" style="max-width: 540px; height: 250px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="https://www.pottsmerc.com/wp-content/uploads/migration/2016/01/0c269e0119d61b3c74d208237c76403c.jpg?w=620"
+                                                class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Lionel Messi</h5>
+                                                <p class="card-text">For Lionel Messi, his vision of home was clear from the start: a space filled with
+              warmth and positive energy.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 25
+                                                        mins ago</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card mb-3" style="max-width: 540px; height: 250px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="https://i.pinimg.com/736x/a6/40/e5/a640e531e5718261e0bd21b050b0c936.jpg"
+                                                class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Neymar J.R</h5>
+                                                <p class="card-text">This is the story of Neymar J.R House, a residential project by Ashwin Architects. In
+              it, and joining.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 33
+                                                        mins ago</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="card mb-3" style="max-width: 540px; height: 250px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="https://www.northjersey.com/gcdn/presto/2023/06/06/PNJM/6460ade4-bf9f-4cb2-be2e-ebb680218e94-Cruise-GettyImages-693134382.jpg?width=523&height=610&fit=crop&format=pjpg&auto=webp"
+                                                class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Tom Cruise</h5>
+                                                <p class="card-text">Great quality furniture at reasonable prices! The staff were super helpful and made the whole process easy.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 45
+                                                        mins ago</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card mb-3" style="max-width: 540px; height: 250px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="https://i.pinimg.com/736x/66/d5/51/66d551991d79f9e5f33b1604d4a703f2.jpg"
+                                                class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Chris Hemsworth</h5>
+                                                <p class="card-text">Beautiful showroom with a wide variety of styles. Found exactly what I was looking for.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 1 hour ago</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card mb-3" style="max-width: 540px; height: 250px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="https://www.hindustantimes.com/web-stories/chris-evans-dapper-red-carpet-looks-_NGN4AzpFUrb_txFr_2R/assets/18.jpeg"
+                                                class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Chris Evans</h5>
+                                                <p class="card-text">Really impressed by the craftsmanship. You can tell these pieces are built to last.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3
+                                                        hours ago</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="card mb-3" style="max-width: 540px; height: 250px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="https://i.pinimg.com/1200x/2c/2b/52/2c2b52a72a2839069d628f89629de4d6.jpg"
+                                                class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Virat Kohli</h5>
+                                                <p class="card-text">TFast delivery and great communication throughout. Would definitely shop here again!</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 2
+                                                        hour ago</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card mb-3" style="max-width: 540px; height: 250px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="https://i.pinimg.com/736x/b2/11/4f/b2114f5522acbd256111ebae9b11722f.jpg"
+                                                class="img-fluid rounded-start" alt="">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Rohit Sharma</h5>
+                                                <p class="card-text">Found some unique pieces I couldn’t find anywhere else. Great for modern and vintage lovers alike!</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 39
+                                                        mins ago</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 ">
+                                <div class="card mb-3" style="max-width: 540px; height: 250px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="https://i.pinimg.com/736x/54/ca/90/54ca9045270a5d31fb33d111b86d97de.jpg"
+                                                class=" img-fluid rounded-start"  alt="">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">M.S Dhoni</h5>
+                                                <p class="card-text">The staff were patient and knowledgeable, and gave honest advice without any pressure to buy.p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 55
+                                                        mins ago</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <!-- Footer -->
+    <footer class="text-center  text-lg-start bg-body-tertiary text-muted">
+
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fa-solid fa-couch me-3"></i>OAKWORLD
+                        </h6>
+                        <p class="fw-normal">
+                            Oakworld is among the World's Largest Furniture Manufacturers offering a diverse range of
+                            modern and traditional furniture. For further enquiries, contact or visit any Oakworld
+                            showroom
+                            where our friendly staff will gladly assist you.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Products
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset text-decoration-none">Chair</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset text-decoration-none">Sofa</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset text-decoration-none">Table</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset text-decoration-none">Coat</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset text-decoration-none">Coat</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Partners
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset text-decoration-none">Becoe a Franchise</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset text-decoration-none">Sell on WoodenStreet</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset text-decoration-none">Design Partner</a>
+                        </p>
+                        <br>
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Trusted By
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset text-decoration-none">QRO Certified</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset text-decoration-none">Ukcert Certified</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset text-decoration-none">CustomFurniture</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset text-decoration-none">Exporters</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset text-decoration-none">Buy in Bulk</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset text-decoration-none">Hotel Furniture</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset text-decoration-none">Sitemap</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3"></i> Kochi,Kakkanad</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            oakworld@gmail.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> +91 7373746389</p>
+                        <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- socialmedia links -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- socialmedia links -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2025 Copyright:
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Oakworld.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+</body>
+
+</html>
